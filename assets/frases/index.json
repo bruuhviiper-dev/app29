@@ -1,0 +1,202 @@
+[
+    {
+        "id":  "verdadeira",
+        "name":  "Amizade Verdadeira",
+        "emoji":  "🫂",
+        "gradient":  [
+                         "#11998e",
+                         "#38ef7d"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "melhores_amigas",
+        "name":  "Melhores Amigas",
+        "emoji":  "👯‍♀️",
+        "gradient":  [
+                         "#f857a6",
+                         "#ff5858"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "melhores_amigos",
+        "name":  "Melhores Amigos",
+        "emoji":  "🤝",
+        "gradient":  [
+                         "#4b6cb7",
+                         "#182848"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "amiga_irma",
+        "name":  "Amiga Irmã",
+        "emoji":  "🫂",
+        "gradient":  [
+                         "#ee9ca7",
+                         "#b24592"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "colorida",
+        "name":  "Amizade Colorida",
+        "emoji":  "🌈",
+        "gradient":  [
+                         "#c471f5",
+                         "#fa71cd"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "distancia",
+        "name":  "Amizade à Distância",
+        "emoji":  "✈️",
+        "gradient":  [
+                         "#2af598",
+                         "#009efd"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "curtas",
+        "name":  "Frases Curtas",
+        "emoji":  "✨",
+        "gradient":  [
+                         "#ff6a88",
+                         "#ff99ac"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "gratidao",
+        "name":  "Gratidão a Amigos",
+        "emoji":  "🙏",
+        "gradient":  [
+                         "#fbc2eb",
+                         "#a18cd1"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "aniversario",
+        "name":  "Aniversário de Amigo(a)",
+        "emoji":  "🎂",
+        "gradient":  [
+                         "#f9d423",
+                         "#ff4e50"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "engracadas",
+        "name":  "Amizade Engraçada",
+        "emoji":  "😂",
+        "gradient":  [
+                         "#f6d365",
+                         "#fda085"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "fe",
+        "name":  "Amizade e Fé",
+        "emoji":  "🙌",
+        "gradient":  [
+                         "#5f2c82",
+                         "#49a09d"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "falsas",
+        "name":  "Amizades Falsas",
+        "emoji":  "🎭",
+        "gradient":  [
+                         "#0f0c29",
+                         "#302b63"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "reconciliacao",
+        "name":  "Reconciliação",
+        "emoji":  "🤗",
+        "gradient":  [
+                         "#43e97b",
+                         "#38f9d7"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "dia_do_amigo",
+        "name":  "Dia do Amigo",
+        "emoji":  "🎉",
+        "gradient":  [
+                         "#f7971e",
+                         "#ffd200"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "antiga",
+        "name":  "Amizade Antiga",
+        "emoji":  "⏳",
+        "gradient":  [
+                         "#b24592",
+                         "#f15f79"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "reflexao",
+        "name":  "Reflexão sobre Amizade",
+        "emoji":  "💭",
+        "gradient":  [
+                         "#302b63",
+                         "#24243e"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "elogios",
+        "name":  "Elogios para Amiga",
+        "emoji":  "💐",
+        "gradient":  [
+                         "#ff6a00",
+                         "#ee0979"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "amor_amizade",
+        "name":  "Amor e Amizade",
+        "emoji":  "❤️",
+        "gradient":  [
+                         "#f857a6",
+                         "#ff5858"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "grupo",
+        "name":  "Grupo de Amigas",
+        "emoji":  "👭",
+        "gradient":  [
+                         "#8e2de2",
+                         "#4a00e0"
+                     ],
+        "premium":  false
+    },
+    {
+        "id":  "homenagem",
+        "name":  "Homenagem a um Amigo",
+        "emoji":  "💌",
+        "gradient":  [
+                         "#ff9a9e",
+                         "#fad0c4"
+                     ],
+        "premium":  false
+    }
+]
