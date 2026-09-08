@@ -11,26 +11,25 @@ import 'package:flutter/material.dart';
 class ProceduralBg {
   ProceduralBg._();
 
-  /// Paletas base (gradiente). Bonitas, com bom contraste pra texto claro.
+  /// Paletas base (gradiente) QUENTES/AFETIVAS — clima de amizade (azul-marinho
+  /// + dourado da capa, hora dourada, festa). Bom contraste pra texto claro.
   static const List<List<Color>> palettes = [
-    [Color(0xFFFF758C), Color(0xFFFF7EB3)],
-    [Color(0xFF667EEA), Color(0xFF764BA2)],
-    [Color(0xFFF7971E), Color(0xFFFFD200)],
-    [Color(0xFF11998E), Color(0xFF38EF7D)],
-    [Color(0xFF8E2DE2), Color(0xFF4A00E0)],
-    [Color(0xFFEB3349), Color(0xFFF45C43)],
-    [Color(0xFF2193B0), Color(0xFF6DD5ED)],
-    [Color(0xFFDA22FF), Color(0xFF9733EE)],
-    [Color(0xFFF12711), Color(0xFFF5AF19)],
-    [Color(0xFF141E30), Color(0xFF243B55)],
-    [Color(0xFFFC466B), Color(0xFF3F5EFB)],
-    [Color(0xFF0F2027), Color(0xFF2C5364)],
-    [Color(0xFFee9ca7), Color(0xFFb24592)],
-    [Color(0xFFf6d365), Color(0xFFfda085)],
-    [Color(0xFF4b6cb7), Color(0xFF182848)],
-    [Color(0xFF5f2c82), Color(0xFF49a09d)],
-    [Color(0xFFc471f5), Color(0xFFfa71cd)],
-    [Color(0xFFf857a6), Color(0xFFff5858)],
+    [Color(0xFF01316C), Color(0xFFFDC302)], // azul-marinho -> ouro (capa)
+    [Color(0xFF2B1B3A), Color(0xFFE8A87C)], // pôr do sol quente
+    [Color(0xFFF7971E), Color(0xFFFFD200)], // dourado
+    [Color(0xFFEB3349), Color(0xFFF45C43)], // coral quente
+    [Color(0xFF6D4C1E), Color(0xFFFDC302)], // âmbar -> ouro
+    [Color(0xFF5F2C82), Color(0xFFC471F5)], // festa lilás
+    [Color(0xFFFF5858), Color(0xFFF857A6)], // rosa festivo
+    [Color(0xFFF12711), Color(0xFFF5AF19)], // laranja quente
+    [Color(0xFF001536), Color(0xFF01316C)], // azul-marinho profundo
+    [Color(0xFFF6D365), Color(0xFFFDA085)], // pêssego
+    [Color(0xFFEE9CA7), Color(0xFFB24592)], // rosa -> vinho
+    [Color(0xFF667EEA), Color(0xFF764BA2)], // azul -> roxo
+    [Color(0xFF0B486B), Color(0xFFFDC302)], // azul -> ouro
+    [Color(0xFF3A2C2A), Color(0xFFF2A65A)], // hora dourada
+    [Color(0xFFFC466B), Color(0xFF3F5EFB)], // rosa -> azul
+    [Color(0xFF232526), Color(0xFF895A7C)], // crepúsculo
   ];
 
   static const int _styles = 7;

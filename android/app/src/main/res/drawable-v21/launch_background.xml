@@ -6,10 +6,10 @@
             <gradient
                 android:type="linear"
                 android:angle="315"
-                android:startColor="#FFFF7EB3"
-                android:endColor="#FFFF5E8A" />
+                android:startColor="#FF022471"
+                android:endColor="#FF000E40" />
         </shape>
     </item>
-    <item android:drawable="@drawable/ic_launcher_foreground"
+    <item android:drawable="@drawable/splash_amigos"
           android:gravity="center" />
 </layer-list>

@@ -4,8 +4,8 @@
          (nao aceita o gradiente do launch_background). Mostra o icone sobre o
          dourado da marca desde t=0. -->
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
-        <item name="android:windowSplashScreenBackground">#FF0F9B8E</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="android:windowSplashScreenBackground">#FF012152</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_amigos</item>
         <item name="android:windowBackground">@drawable/launch_background</item>
     </style>
     <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
