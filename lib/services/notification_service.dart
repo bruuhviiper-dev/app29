@@ -3,10 +3,8 @@ import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:timezone/data/latest_all.dart' as tzdata;
 import 'package:timezone/timezone.dart' as tz;
 
-import '../data/verses.dart';
-
-/// Notificação diária (frase no horário escolhido). Ao TOCAR, abre
-/// exatamente a mensagem da notificação (mesmo com o app fechado).
+/// Notificacao diaria GENERICA (nao revela a frase). Ao TOCAR, apenas abre o
+/// app para o usuario ver a frase do dia.
 class NotificationService {
   NotificationService._();
   static final NotificationService instance = NotificationService._();
@@ -32,7 +30,7 @@ class NotificationService {
       final name = await FlutterTimezone.getLocalTimezone();
       tz.setLocalLocation(tz.getLocation(name));
     } catch (_) {
-      // mantém o padrão (UTC) se não conseguir detectar
+      // mantem o padrao (UTC) se nao conseguir detectar
     }
     const android = AndroidInitializationSettings('@mipmap/ic_launcher');
     await _plugin.initialize(
@@ -60,30 +58,26 @@ class NotificationService {
   Future<void> scheduleDaily(int hour, int minute) async {
     await init();
     await _plugin.cancel(_dailyId);
-    final fire = _nextInstance(hour, minute);
-    // Mesma "frase do dia" que o card da home mostra no dia em que a
-    // notificação toca — assim a notificação e o app batem.
-    final body = VerseData.ofDay(DateTime(fire.year, fire.month, fire.day));
+    // GENERICA: nao revela a frase. Ao tocar, abre o app (payload vazio).
     await _plugin.zonedSchedule(
       _dailyId,
       'Frases de Amizade 🫂',
-      body,
-      fire,
-      NotificationDetails(
+      'Toque para ver a frase de hoje 🫂',
+      _nextInstance(hour, minute),
+      const NotificationDetails(
         android: AndroidNotificationDetails(
           'daily_frase',
           'Frase do dia',
-          channelDescription: 'A sua frase do dia',
+          channelDescription: 'Um lembrete diario para abrir o app',
           importance: Importance.high,
           priority: Priority.high,
-          styleInformation: BigTextStyleInformation(body),
         ),
       ),
       androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
       uiLocalNotificationDateInterpretation:
           UILocalNotificationDateInterpretation.absoluteTime,
       matchDateTimeComponents: DateTimeComponents.time,
-      payload: body,
+      payload: '',
     );
   }
 
